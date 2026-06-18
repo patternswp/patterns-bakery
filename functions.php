@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_BAKERY_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_BAKERY_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_BAKERY_VERSION', '1.0.2' );
+define( 'PATTERNS_BAKERY_VERSION', '1.0.3' );
 define( 'PATTERNS_BAKERY_THEME_NAME', 'patterns-bakery' );
 define( 'PATTERNS_BAKERY_OPTION_NAME', 'patterns-bakery' );
 

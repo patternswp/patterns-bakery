@@ -1,11 +1,14 @@
-@import '../_global';
+@use '../_global';
+@use "../mixins";
+@use "../prefix-vars";
+
 
 // Absolute Header
 body {
 	&:not(.admin-bar) {
-		#{$themePrefix} {
+		#{prefix-vars.$themePrefix} {
 			&-header {
-				#{$varPrefix}-t: 0;
+				#{prefix-vars.$varPrefix}-t: 0;
 			}
 		}
 	}
@@ -13,28 +16,28 @@ body {
 
 //Theme CSS
 
-#{$themePrefix} {
+#{prefix-vars.$themePrefix} {
 	//Absolute Header
 	&-header {
-		#{$varPrefix}-pos: absolute;
-		#{$varPrefix}-t: var(--wp-admin--admin-bar--height);
-		#{$varPrefix}-l: 0;
-		#{$varPrefix}-r: 0;
-		#{$varPrefix}-z-idx: 9;
+		#{prefix-vars.$varPrefix}-pos: absolute;
+		#{prefix-vars.$varPrefix}-t: var(--wp-admin--admin-bar--height);
+		#{prefix-vars.$varPrefix}-l: 0;
+		#{prefix-vars.$varPrefix}-r: 0;
+		#{prefix-vars.$varPrefix}-z-idx: 9;
 	}
 
 	// Hero Banner
 	&-hero {
 		&-banner {
-			#{$varPrefix}-pos: relative;
+			#{prefix-vars.$varPrefix}-pos: relative;
 
-			@include respond-above(xxl) {
+			@include mixins.respond-above(xxl) {
 				min-height: 85vh !important;
 			}
 
 			&-content {
-				#{$varPrefix}-pos: relative;
-				#{$varPrefix}-z-idx: 2;
+				#{prefix-vars.$varPrefix}-pos: relative;
+				#{prefix-vars.$varPrefix}-z-idx: 2;
 			}
 		}
 	}

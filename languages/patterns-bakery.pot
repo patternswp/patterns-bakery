@@ -1,4 +1,4 @@
-# Copyright (C) 2025 patternswp
+#  Copyright (C) 2025 patternswp
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-14T16:27:38+00:00\n"
+"POT-Creation-Date: 2025-02-19T06:58:59+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: patterns-bakery\n"
@@ -425,11 +425,10 @@ msgid "To use global styles, go to Appearance > Editor > Styles, then click on t
 msgstr ""
 
 #: patterns/archives.php:18
-#: patterns/latest-posts.php:18
-msgid "Recent Posts"
+msgid "Archives"
 msgstr ""
 
-#: patterns/calendar.php:17
+#: patterns/calendar.php:18
 msgid "Calendar"
 msgstr ""
 
@@ -473,35 +472,35 @@ msgid "Details"
 msgstr ""
 
 #: patterns/card-5.php:22
-#: patterns/featured-section-3.php:63
-#: patterns/featured-section-3.php:86
-#: patterns/featured-section-3.php:109
-#: patterns/featured-section-3.php:136
-#: patterns/featured-section-3.php:159
-#: patterns/featured-section-3.php:182
-#: patterns/featured-section-3.php:204
+#: patterns/featured-section-3.php:65
+#: patterns/featured-section-3.php:88
+#: patterns/featured-section-3.php:113
+#: patterns/featured-section-3.php:140
+#: patterns/featured-section-3.php:162
+#: patterns/featured-section-3.php:185
+#: patterns/featured-section-3.php:207
 msgid "Tomato Bruschetta"
 msgstr ""
 
 #: patterns/card-5.php:26
-#: patterns/featured-section-3.php:67
-#: patterns/featured-section-3.php:90
-#: patterns/featured-section-3.php:113
-#: patterns/featured-section-3.php:140
-#: patterns/featured-section-3.php:163
-#: patterns/featured-section-3.php:186
-#: patterns/featured-section-3.php:208
+#: patterns/featured-section-3.php:69
+#: patterns/featured-section-3.php:92
+#: patterns/featured-section-3.php:117
+#: patterns/featured-section-3.php:144
+#: patterns/featured-section-3.php:166
+#: patterns/featured-section-3.php:189
+#: patterns/featured-section-3.php:211
 msgid "Tomatoes, Olive Oil, Cheese"
 msgstr ""
 
 #: patterns/card-5.php:32
-#: patterns/featured-section-3.php:73
-#: patterns/featured-section-3.php:96
-#: patterns/featured-section-3.php:119
-#: patterns/featured-section-3.php:146
-#: patterns/featured-section-3.php:169
-#: patterns/featured-section-3.php:192
-#: patterns/featured-section-3.php:214
+#: patterns/featured-section-3.php:75
+#: patterns/featured-section-3.php:98
+#: patterns/featured-section-3.php:123
+#: patterns/featured-section-3.php:150
+#: patterns/featured-section-3.php:172
+#: patterns/featured-section-3.php:195
+#: patterns/featured-section-3.php:217
 msgid "$5.00"
 msgstr ""
 
@@ -536,16 +535,16 @@ msgstr ""
 msgid ". All Rights Reserved"
 msgstr ""
 
-#: patterns/featured-section-1.php:44
+#: patterns/featured-section-1.php:46
 msgid "Book Anytime"
 msgstr ""
 
-#: patterns/featured-section-1.php:48
+#: patterns/featured-section-1.php:50
 #: patterns/section-title-1.php:23
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque similique non distinctio voluptates perspiciatis"
 msgstr ""
 
-#: patterns/featured-section-1.php:53
+#: patterns/featured-section-1.php:55
 msgid "Book a Table"
 msgstr ""
 
@@ -586,11 +585,11 @@ msgid "Delicious Food Forever"
 msgstr ""
 
 #. translators: 1: Opening hours start, 2: Opening hours end
-#: patterns/featured-section-3.php:236
+#: patterns/featured-section-3.php:239
 msgid "During winter daily from %1$s to %2$s"
 msgstr ""
 
-#: patterns/featured-section-3.php:257
+#: patterns/featured-section-3.php:260
 msgid "Browse Menus"
 msgstr ""
 
@@ -602,16 +601,16 @@ msgstr ""
 msgid "Our Clients Said"
 msgstr ""
 
-#: patterns/featured-section-5.php:51
+#: patterns/featured-section-5.php:53
 #: patterns/hero-banner-content.php:41
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque similique"
 msgstr ""
 
-#: patterns/featured-section-5.php:56
+#: patterns/featured-section-5.php:58
 msgid "Natalie Jones"
 msgstr ""
 
-#: patterns/featured-section-5.php:60
+#: patterns/featured-section-5.php:62
 msgid "Dental Assistant"
 msgstr ""
 
@@ -635,55 +634,55 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: patterns/featured-section-9.php:68
-#: patterns/hidden-primary-header.php:37
+#: patterns/featured-section-9.php:70
+#: patterns/hidden-primary-header.php:38
 msgid "Order Now"
 msgstr ""
 
-#: patterns/featured-section-9.php:72
-#: patterns/hidden-primary-header.php:41
+#: patterns/featured-section-9.php:74
+#: patterns/hidden-primary-header.php:42
 msgid "(808) 555-0111"
 msgstr ""
 
-#: patterns/featured-section-9.php:88
+#: patterns/featured-section-9.php:90
 msgid "Email"
 msgstr ""
 
-#: patterns/featured-section-9.php:92
+#: patterns/featured-section-9.php:94
 #: patterns/footer.php:28
 msgid "info@example.com"
 msgstr ""
 
-#: patterns/featured-section-9.php:108
+#: patterns/featured-section-9.php:110
 msgid "Address"
 msgstr ""
 
-#: patterns/featured-section-9.php:112
+#: patterns/featured-section-9.php:114
 msgid "785 15h Street, Office 478 Berlin,"
 msgstr ""
 
-#: patterns/featured-section-9.php:124
+#: patterns/featured-section-9.php:126
 msgid "Opening Hours"
 msgstr ""
 
-#: patterns/featured-section-9.php:129
+#: patterns/featured-section-9.php:131
 msgid "Sat - Mon"
 msgstr ""
 
-#: patterns/featured-section-9.php:133
-#: patterns/featured-section-9.php:147
+#: patterns/featured-section-9.php:135
+#: patterns/featured-section-9.php:149
 msgid "10 AM - 8 PM"
 msgstr ""
 
-#: patterns/featured-section-9.php:143
+#: patterns/featured-section-9.php:145
 msgid "Tue - Thu"
 msgstr ""
 
-#: patterns/featured-section-9.php:157
+#: patterns/featured-section-9.php:159
 msgid "Friday"
 msgstr ""
 
-#: patterns/featured-section-9.php:161
+#: patterns/featured-section-9.php:163
 msgid "Closed"
 msgstr ""
 
@@ -763,6 +762,10 @@ msgstr ""
 
 #: patterns/latest-comments.php:16
 msgid "Recent comments"
+msgstr ""
+
+#: patterns/latest-posts.php:16
+msgid "Recent Posts"
 msgstr ""
 
 #: patterns/navigation-menu.php:14
@@ -870,6 +873,46 @@ msgstr ""
 #: theme.json
 msgctxt "Color name"
 msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Regular"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX-Large"
 msgstr ""
 
 #: theme.json

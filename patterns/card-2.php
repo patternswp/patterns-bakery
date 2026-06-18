@@ -16,8 +16,8 @@
 <h4 class="wp-block-heading alignwide has-base-color has-text-color has-xx-large-font-size" style="margin-bottom:0px;font-style:normal;font-weight:400;line-height:1"><?php esc_html_e( '01', 'patterns-bakery' ); ?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":5,"align":"wide","style":{"spacing":{"margin":{"bottom":"15px","top":"40px"}},"typography":{"lineHeight":"0.6","fontSize":"24px","fontStyle":"normal","fontWeight":"400"}},"textColor":"base"} -->
-<h5 class="wp-block-heading alignwide has-base-color has-text-color" style="margin-top:40px;margin-bottom:15px;font-size:24px;font-style:normal;font-weight:400;line-height:0.6"><?php esc_html_e( 'Choose the Cake', 'patterns-bakery' ); ?></h5>
+<!-- wp:heading {"level":5,"align":"wide","style":{"spacing":{"margin":{"bottom":"15px","top":"var:preset|spacing|40"}},"typography":{"lineHeight":"0.6","fontSize":"24px","fontStyle":"normal","fontWeight":"400"}},"textColor":"base"} -->
+<h5 class="wp-block-heading alignwide has-base-color has-text-color" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:15px;font-size:24px;font-style:normal;font-weight:400;line-height:0.6"><?php esc_html_e( 'Choose the Cake', 'patterns-bakery' ); ?></h5>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0px"}},"typography":{"lineHeight":"1.8"}},"textColor":"tertiary"} -->

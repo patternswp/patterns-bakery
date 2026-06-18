@@ -11,14 +11,14 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"name":"Hero content"},"align":"full","className":"patterns-bakery-hero-banner-content","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull patterns-bakery-hero-banner-content" style="padding-top:0;padding-bottom:0"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<!-- wp:group {"metadata":{"name":"Hero content"},"align":"full","className":"patterns-bakery-hero-banner-content","style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull patterns-bakery-hero-banner-content"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:separator {"className":"is-style-default","style":{"layout":{"selfStretch":"fixed","flexSize":"50px"}},"backgroundColor":"primary"} -->
 <hr class="wp-block-separator has-text-color has-primary-color has-alpha-channel-opacity has-primary-background-color has-background is-style-default"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"10px","right":"10px"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-primary-background-color has-background" style="padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px"><!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"13px","lineHeight":"1.2","textTransform":"uppercase","letterSpacing":"1px"},"spacing":{"margin":{"bottom":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-primary-background-color has-background" style="padding-top:5px;padding-right:var(--wp--preset--spacing--10);padding-bottom:5px;padding-left:var(--wp--preset--spacing--10)"><!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"13px","lineHeight":"1.2","textTransform":"uppercase","letterSpacing":"1px"},"spacing":{"margin":{"bottom":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default"} -->
 <p class="has-text-align-left has-default-color has-text-color has-link-color" style="margin-bottom:0px;font-size:13px;letter-spacing:1px;line-height:1.2;text-transform:uppercase"><?php esc_html_e( 'We Care For Every Patient', 'patterns-bakery' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
@@ -32,8 +32,8 @@
 <h1 class="wp-block-heading has-text-align-center" style="line-height:1"><?php esc_html_e( 'Quality Breads &amp; Pastries available today', 'patterns-bakery' ); ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:spacer {"height":"30px","style":{"layout":{}}} -->
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"var:preset|spacing|30","style":{"layout":{}}} -->
+<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:group {"style":{"layout":{}},"layout":{"type":"constrained","contentSize":"500px","justifyContent":"center"}} -->
@@ -42,8 +42,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"30px","style":{"layout":{}}} -->
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"var:preset|spacing|30","style":{"layout":{}}} -->
+<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:buttons {"style":{"layout":{}},"layout":{"type":"flex","justifyContent":"center"}} -->

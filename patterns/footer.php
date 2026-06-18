@@ -13,13 +13,13 @@
 
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px"}},"backgroundColor":"accent","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-accent-background-color has-background"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"80px"},"padding":{"top":"100px","bottom":"100px","right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-top" style="padding-top:100px;padding-right:var(--wp--preset--spacing--40);padding-bottom:100px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:column {"verticalAlignment":"top","width":"33.33%"} -->
+<div class="wp-block-group alignfull has-accent-background-color has-background"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|80","left":"var:preset|spacing|80"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:column {"verticalAlignment":"top","width":"33.33%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:33.33%"><!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600"}},"textColor":"default"} -->
 <h6 class="wp-block-heading has-text-align-center has-default-color has-text-color" style="font-size:20px;font-style:normal;font-weight:600"><?php esc_html_e( 'Contact Info', 'patterns-bakery' ); ?></h6>
 <!-- /wp:heading -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default","fontSize":"small"} -->
 <p class="has-text-align-center has-default-color has-text-color has-link-color has-small-font-size" style="margin-top:0px;margin-bottom:0px"><?php esc_html_e( '785 15h Street, Office 478 Berlin, De 81566 6391 Elgin St. Celina, 10299', 'patterns-bakery' ); ?></p>
 <!-- /wp:paragraph -->
@@ -57,8 +57,8 @@
 <h6 class="wp-block-heading has-text-align-center has-default-color has-text-color" style="font-size:20px;font-style:normal;font-weight:600"><?php esc_html_e( 'Gallery', 'patterns-bakery' ); ?></h6>
 <!-- /wp:heading -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"auto","height":"80px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-6.jpg" style="aspect-ratio:1;object-fit:cover;width:auto;height:80px"/></figure>
 <!-- /wp:image -->
@@ -72,7 +72,7 @@
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"auto","height":"80px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-3.jpg" style="aspect-ratio:1;object-fit:cover;width:auto;height:80px"/></figure>
 <!-- /wp:image -->
@@ -90,11 +90,11 @@
 <!-- /wp:columns -->
 
 <!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","style":{"border":{"top":{"color":"#ffffff52","style":"solid","width":"1px"},"right":[],"bottom":[],"left":[]},"spacing":{"padding":{"top":"30px","bottom":"30px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","style":{"border":{"top":{"color":"#ffffff52","style":"solid","width":"1px"},"right":[],"bottom":[],"left":[]},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"},"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"
-	style="border-top-color:#ffffff52;border-top-style:solid;border-top-width:1px;padding-top:30px;padding-right:var(--wp--preset--spacing--40);padding-bottom:30px;padding-left:var(--wp--preset--spacing--40)">    
+    style="border-top-color:#ffffff52;border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0">  
 
-<!-- wp:navigation {"textColor":"default","overlayMenu":"never","style":{"spacing":{"blockGap":"20px"},"typography":{"fontSize":"13px","textTransform":"none","letterSpacing":"0px"}}} -->
+<!-- wp:navigation {"textColor":"default","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"fontSize":"13px","textTransform":"none","letterSpacing":"0px"}}} -->
 	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy', 'patterns-bakery' ); ?>","url":"#"} /-->
 	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Policy', 'patterns-bakery' ); ?>","url":"#"} /-->
 	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'patterns-bakery' ); ?>","url":"#"} /-->

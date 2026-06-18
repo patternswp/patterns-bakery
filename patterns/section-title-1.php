@@ -11,10 +11,10 @@
  */
 
 ?>
-<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"80px"}}}} -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"right","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","textTransform":"capitalize"},"spacing":{"margin":{"bottom":"20px"}}},"textColor":"base","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-right has-base-color has-text-color has-x-large-font-size" style="margin-bottom:20px;font-style:normal;font-weight:700;line-height:1.1;text-transform:capitalize"><?php esc_html_e( 'Serving Fresh Bread Every Day', 'patterns-bakery' ); ?></h2>
+<div class="wp-block-column"><!-- wp:heading {"textAlign":"right","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.1","textTransform":"capitalize"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"base","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-right has-base-color has-text-color has-x-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;line-height:1.1;text-transform:capitalize"><?php esc_html_e( 'Serving Fresh Bread Every Day', 'patterns-bakery' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

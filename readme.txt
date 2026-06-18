@@ -3,7 +3,7 @@ Contributors: patternswp, codersantosh
 Requires at least: 6.6
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,13 @@ License: Apache License, Version 2.0, https://www.apache.org/licenses/LICENSE-2.
 Source: https://github.com/google/material-design-icons
 
 == Changelog ==
+
+= 1.0.3 =
+* Organized typography folder
+* Converted fonts format .ttf to .woff2
+* Added duotone
+* Fixed skip to content
+* Added missing patterns for 404
 
 = 1.0.2 =
 * Update: Image optimization.

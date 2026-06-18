@@ -19,12 +19,12 @@
 
 <!-- wp:pattern {"slug":"patterns-bakery/post-meta"} /-->
 
-<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"clamp(15vw, 30vh, 400px)","align":"wide","style":{"spacing":{"margin":{"bottom":"20px"}}}} /-->
+<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"clamp(15vw, 30vh, 400px)","align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}}} /-->
 
 <!-- wp:post-excerpt {"moreText":""} /-->
 
-<!-- wp:spacer {"height":"40px"} -->
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 <!-- /wp:post-template -->
 
