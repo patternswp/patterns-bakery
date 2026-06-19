@@ -1,6 +1,6 @@
 <?php
 /**
- * Title:Contact Page
+ * Title: Contact Page
  * Slug: patterns-bakery/contact-page
  * Categories: page
  * Keywords: Page
