@@ -53,7 +53,7 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"layout":{"type":"constrained","wideSize":""}} -->
 <div class="wp-block-group"><!-- wp:html -->
-<div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 350px;"></iframe><style>.mapouter{position:relative;height:350px;width:100%;background:#fff;} .maprouter a{color:#fff !important;position:absolute !important;top:0 !important;z-index:0 !important;}</style><a href="https://blooketjoin.org/">blooket</a><style>.gmap_canvas{overflow:hidden;height:350px;width:100%}.gmap_canvas iframe{position:relative;z-index:2}</style></div></div>
+<div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 350px;"></iframe><style>.mapouter{position:relative;height:350px;width:100%;background:#fff;} .gmap_canvas{overflow:hidden;height:350px;width:100%}</style></div></div>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
