@@ -491,12 +491,17 @@ if ( ! function_exists( 'patterns_bakery_file_system' ) ) {
 	}
 }
 
-if ( ! function_exists( 'patterns_bakery_parse_changelog' ) ) {
+if ( ! function_exists( 'patterns_bakery_parse_changelog' ) ) :
 	/**
-	 * Parse changelog
+	 * Parse the changelog section from the theme's readme.txt.
+	 *
+	 * Reads the WP.org-format readme, finds the == Changelog == section,
+	 * and returns the resulting text (including per-version headings
+	 * like `= 1.2.3 =` and blank lines between versions), sanitized via
+	 * wp_kses_post().
 	 *
 	 * @since 1.0.0
-	 * @return string
+	 * @return string Sanitized changelog text, or empty string if unavailable.
 	 *
 	 * @author     codersantosh <codersantosh@gmail.com>
 	 */
@@ -504,9 +509,12 @@ if ( ! function_exists( 'patterns_bakery_parse_changelog' ) ) {
 
 		$wp_filesystem = patterns_bakery_file_system();
 
-		$changelog_file = apply_filters( 'patterns_bakery_changelog_file', PATTERNS_BAKERY_PATH . 'readme.txt' );
+		$changelog_file = apply_filters(
+			'patterns_bakery_changelog_file',
+			PATTERNS_BAKERY_PATH . 'readme.txt'
+		);
 
-		/*Check if the changelog file exists and is readable.*/
+		/* Check if the changelog file exists and is readable. */
 		if ( ! $changelog_file || ! is_readable( $changelog_file ) ) {
 			return '';
 		}
@@ -522,16 +530,16 @@ if ( ! function_exists( 'patterns_bakery_parse_changelog' ) ) {
 		$changelog = '';
 
 		if ( preg_match( $regexp, $content, $matches ) ) {
-			$changes = explode( '\r\n', trim( $matches[1] ) );
+			$changes = preg_split( '/\R/', trim( $matches[1] ) );
 
 			foreach ( $changes as $index => $line ) {
-				$changelog .= wp_kses_post( preg_replace( '~(=\s*Version\s*(\d+(?:\.\d+)+)\s*=|$)~Uis', '', $line ) );
+				$changelog .= wp_kses_post( $line ) . "\n";
 			}
 		}
 
-		return wp_kses_post( $changelog );
+		return $changelog;
 	}
-}
+endif;
 
 if ( ! function_exists( 'patterns_bakery_get_theme_faq' ) ) :
 	/**
