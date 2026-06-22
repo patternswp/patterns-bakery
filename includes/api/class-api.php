@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Bakery_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Bakery_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-bakery/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Bakery_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
