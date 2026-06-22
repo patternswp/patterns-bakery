@@ -29,7 +29,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column is-vertically-aligned-center">
-    
+
 <!-- wp:spacer {"height":"var:preset|spacing|40","style":{"layout":{}}} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
